@@ -7,72 +7,232 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0262BFA017B090D8136F6FE98877BB2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		037080AAF3A7C5B221246BD507AD71F7 /* NPRequest+SendJsonEncoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB32FD060602A83439C73829734EB80 /* NPRequest+SendJsonEncoded.swift */; };
+		045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */; };
+		04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */; };
+		0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		13AB79FA5C713E3BA575934DF6EC0699 /* ResultTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51820B6D09135EC1B896BD97F7A2139 /* ResultTypes.swift */; };
 		144239499EBAC0008398CD6BBFAB3938 /* Pods-Neptune_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D797DCCD5CD699950C265CACDBCF91 /* Pods-Neptune_Tests-dummy.m */; };
-		2D9C30B5466904B948EB54453A3F86A6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC95D4C74402D4FCF2720ACC0795B1E2 /* ReplaceMe.swift */; };
-		2F3BCE97EF88FC87812FDFAE08EFD792 /* Pods-Neptune_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D98D3B339CD4A3453A6C533416D24C77 /* Pods-Neptune_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		582C33C67778B1CF68B528DE49512A50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8391962D88D8416C90CC88A548D77D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A111F4D94D7FBE5A18378474B16E134B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A4987EA118B6B15C30BDDDF42ECF1B3F /* Neptune-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D475DB648F3CBD11DF88E10D8BFDEE /* Neptune-dummy.m */; };
-		E2CC79498F58DF7AC1C5C78A76180B06 /* Pods-Neptune_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8FA2398730B3FE83F7F546E99E986 /* Pods-Neptune_Example-dummy.m */; };
+		195F8F389F3C59D043AAC8E1E48B36A6 /* NPRequest+ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790BBA7C30BB7543F1F2756951C9174 /* NPRequest+ParseError.swift */; };
+		1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */; };
+		1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */; };
+		273AA98139DF0953BF89A9E556AA0D08 /* NPRequest+Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8404355431EE3AC3E6BC40D0C49AF40 /* NPRequest+Build.swift */; };
+		2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */; };
+		2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */; };
+		2CDA0CDF1504379FA37032D1E320AC08 /* Neptune-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D267F92C5C7DFAD13852D07A5D6C10D /* Neptune-dummy.m */; };
+		2FF6BA5354AF3CEC07813A06A1811300 /* EnvironmentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5FC3401DD9DCF17A3B1D79A4940A5F /* EnvironmentMode.swift */; };
+		33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */; };
+		36BDF1216B124FC3B884D9E34CF98A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */; };
+		3F2EB16CB7A9F95EEA8069C9FA34A1FD /* String+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E342556E485370FA363E3F70B6A878 /* String+Print.swift */; };
+		461FAA71D64A7C18825433A7411656D4 /* NeptuneError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590C1C972597CCC506065472E95E84E /* NeptuneError.swift */; };
+		46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D611F243BC3328826FE250D806EC26 /* Combine.swift */; };
+		55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */; };
+		5E14EAD012ACE084A51F6BB41F62E3DB /* Neptune-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6556F255E1897BA6D6EA3DBF89F9F3D /* Neptune-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED8FECFB20B150BC389686793BF0FCC /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE19CA6ECEDBA9C8ACE68092529E4C5 /* Logger.swift */; };
+		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */; };
+		7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */; };
+		75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8637848096C1E040096D350A02F8E944 /* Response.swift */; };
+		7647338399054461B9825D2E1107B2A7 /* NPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46AC5EBBA52ACE462AB65447ACC912D /* NPRequest.swift */; };
+		7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */; };
+		7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
+		7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */; };
+		7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */; };
+		7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */; };
+		808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */; };
+		81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D97FB483508422ACE73BA88223F05 /* Session.swift */; };
+		824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */; };
+		8391962D88D8416C90CC88A548D77D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		84C73987359529D4AFFE40407FB04B96 /* Encodable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD248026D44B25BAA09359AFC25E09 /* Encodable+Dictionary.swift */; };
+		878725D7BEACE4DAAECE5D933D79EFF8 /* Pods-Neptune_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8FA2398730B3FE83F7F546E99E986 /* Pods-Neptune_Example-dummy.m */; };
+		8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */; };
+		8DF002777956DE730D330EE78DDDDD22 /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20D70223EB04E124BCF9074E343D8A /* StatusCode.swift */; };
+		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */; };
+		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */; };
+		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */; };
+		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */; };
+		A6381FC04CCA5F33A3D6900DFC1559A2 /* NPRequest+URLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A15B8D0C91B8627D987591727E950 /* NPRequest+URLEncoding.swift */; };
+		A97CD4200A6BE4C9D5C919F6C2249985 /* Pods-Neptune_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D98D3B339CD4A3453A6C533416D24C77 /* Pods-Neptune_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B00E8C88156F79E04DC3F50936D1F78D /* Neptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5341652F2C8403337A305658ED6828A2 /* Neptune.swift */; };
+		B1208DF9D4136F29BACD4051830A906D /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E167342929BA7EF199C42307DCB7347 /* NetworkStatus.swift */; };
+		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */; };
+		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */; };
+		BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */; };
+		CB12C5D6F492412078478FC026BCEF6B /* NPRequest+SendMultipart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B88ED539E296E8877A20D0CF3A036 /* NPRequest+SendMultipart.swift */; };
+		CC5C0992992C493E02F515A86255CAB7 /* NPRequest+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FBC31CC490338700E2B4DF11712467 /* NPRequest+Cache.swift */; };
+		CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */; };
+		D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91762C69C08629CBFD921AEBACE63AED /* AFError.swift */; };
+		D1431437F700D705EA0EF9FB40A21C88 /* Neptune+PrepareHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5234C2A80584781BD6B66787874F46 /* Neptune+PrepareHeaders.swift */; };
+		D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */; };
+		D8782F44AF886806BCC43D09691CB73C /* QueryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3DF88452F885987E947B06EF82BFA2 /* QueryContainer.swift */; };
+		DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */; };
+		DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */; };
+		DD9C0642477849BA9C5C585E72176E73 /* NPRequest+SendEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CEA8E6B29132842D8C60FE53BCFAA4 /* NPRequest+SendEmpty.swift */; };
+		E4D371190059AAC29C052916A729A673 /* NPRequest+PareResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B735EBCAB6E10F8DE83D319CAE7284F /* NPRequest+PareResponse.swift */; };
+		E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */; };
+		E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */; };
 		EA999F1F5E5B3DE6520EC3477739D5DF /* Pods-Neptune_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D0A1A4B1E2C725D6FEEBC5DB2BA76A /* Pods-Neptune_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED1DCB68BA3C97B5BDBA5CAA12241FAE /* Neptune-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41C8D940663BEAC82B0F018A3814E38A /* Neptune-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */; };
+		EFD8DCDAE8594861E10E18D8EFA88B72 /* Neptune+Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177FFB6373EC7ACE071BCBA6B43CED71 /* Neptune+Environment.swift */; };
+		F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */; };
+		FCB39609D4A12EB9F7202DF983CD5701 /* NPEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B7D2C8850F9944F33CA1C8A86D735 /* NPEnvironment.swift */; };
+		FF32A3D8E323A589AE65D0369E6BB7AE /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354983BD17BAD329FD481A535AE36D68 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9355533D4753A23D6D2893ED43D6BF86 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C464C64D3261920F0B24363281A656A2;
-			remoteInfo = "Pods-Neptune_Example";
-		};
-		E3927C436AD464D7E9AF3932A2947D3E /* PBXContainerItemProxy */ = {
+		21EBBDF0AF7DC726E7F50EE5F718730C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE406C9D77223F3546D1EDD6D8F831DB;
 			remoteInfo = Neptune;
 		};
+		62E93278DB93C184266E5FD82E42B621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		9166CCB16BCE8813B4A3321335B1BD71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C464C64D3261920F0B24363281A656A2;
+			remoteInfo = "Pods-Neptune_Example";
+		};
+		CB4DCE574BE3108C5DA04A210BC4BDBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		0691B9E1A4EA478E540843A06623E76B /* Neptune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neptune.release.xcconfig; sourceTree = "<group>"; };
+		0790BBA7C30BB7543F1F2756951C9174 /* NPRequest+ParseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NPRequest+ParseError.swift"; path = "Neptune/Classes/NPRequest+ParseError.swift"; sourceTree = "<group>"; };
+		0A3EB6508561F9676FE95486B422B72D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		0D267F92C5C7DFAD13852D07A5D6C10D /* Neptune-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Neptune-dummy.m"; sourceTree = "<group>"; };
+		15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		177FFB6373EC7ACE071BCBA6B43CED71 /* Neptune+Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Neptune+Environment.swift"; path = "Neptune/Classes/Neptune+Environment.swift"; sourceTree = "<group>"; };
+		182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		1B5AECC0DE0C9C081AA1AB54ED0F2A83 /* Pods-Neptune_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neptune_Tests-Info.plist"; sourceTree = "<group>"; };
-		1C783642E1651E00BDDD2D94E921103A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1E5B88ED539E296E8877A20D0CF3A036 /* NPRequest+SendMultipart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NPRequest+SendMultipart.swift"; path = "Neptune/Classes/NPRequest+SendMultipart.swift"; sourceTree = "<group>"; };
 		209FC231216BF480FECFCD639512A2EF /* Pods-Neptune_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neptune_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		21F9A395984CA4F9834BEF0415EDE70D /* Pods-Neptune_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Neptune_Tests.modulemap"; sourceTree = "<group>"; };
 		2244AA31F2ABC4FD45B701CC5C392654 /* Pods-Neptune_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Neptune_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33DBFC2898286A67E07947AB9F7F429B /* Neptune.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Neptune.modulemap; sourceTree = "<group>"; };
-		41C8D940663BEAC82B0F018A3814E38A /* Neptune-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neptune-umbrella.h"; sourceTree = "<group>"; };
+		232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		2F20D70223EB04E124BCF9074E343D8A /* StatusCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusCode.swift; path = Neptune/Classes/StatusCode.swift; sourceTree = "<group>"; };
+		33EBFABEED9058983A50E09E8F947E88 /* Neptune-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neptune-prefix.pch"; sourceTree = "<group>"; };
+		3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		354983BD17BAD329FD481A535AE36D68 /* NetworkError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkError.swift; path = Neptune/Classes/NetworkError.swift; sourceTree = "<group>"; };
+		3B0D97FB483508422ACE73BA88223F05 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		400B7D2C8850F9944F33CA1C8A86D735 /* NPEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NPEnvironment.swift; path = Neptune/Classes/NPEnvironment.swift; sourceTree = "<group>"; };
+		42D611F243BC3328826FE250D806EC26 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		498A15B8D0C91B8627D987591727E950 /* NPRequest+URLEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NPRequest+URLEncoding.swift"; path = "Neptune/Classes/NPRequest+URLEncoding.swift"; sourceTree = "<group>"; };
+		4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		4CBBAE038F17F42F50CBDE508008674C /* Pods-Neptune_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Neptune_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4DD8FA2398730B3FE83F7F546E99E986 /* Pods-Neptune_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Neptune_Example-dummy.m"; sourceTree = "<group>"; };
-		5413A0495D02503DEBD5EB9E3C2FC5BC /* Neptune.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Neptune.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		5341652F2C8403337A305658ED6828A2 /* Neptune.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Neptune.swift; path = Neptune/Classes/Neptune.swift; sourceTree = "<group>"; };
+		53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		5590C1C972597CCC506065472E95E84E /* NeptuneError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeptuneError.swift; path = Neptune/Classes/NeptuneError.swift; sourceTree = "<group>"; };
 		55FA6A262975445E849335BD013191DB /* Pods-Neptune_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neptune_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		57D797DCCD5CD699950C265CACDBCF91 /* Pods-Neptune_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Neptune_Tests-dummy.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AC2A3232A2FA431EC042B34F1D06532 /* Neptune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neptune.release.xcconfig; sourceTree = "<group>"; };
-		9441ECF0FA2956D2D15E554ABD28805A /* Pods_Neptune_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neptune_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB32FD060602A83439C73829734EB80 /* NPRequest+SendJsonEncoded.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NPRequest+SendJsonEncoded.swift"; path = "Neptune/Classes/NPRequest+SendJsonEncoded.swift"; sourceTree = "<group>"; };
+		5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		7C3DF88452F885987E947B06EF82BFA2 /* QueryContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryContainer.swift; path = Neptune/Classes/QueryContainer.swift; sourceTree = "<group>"; };
+		8637848096C1E040096D350A02F8E944 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8B5FC3401DD9DCF17A3B1D79A4940A5F /* EnvironmentMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnvironmentMode.swift; path = Neptune/Classes/EnvironmentMode.swift; sourceTree = "<group>"; };
+		8C5234C2A80584781BD6B66787874F46 /* Neptune+PrepareHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Neptune+PrepareHeaders.swift"; path = "Neptune/Classes/Neptune+PrepareHeaders.swift"; sourceTree = "<group>"; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		9004C2E27B7F9FA32BC9B07CD98CDCE0 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		91762C69C08629CBFD921AEBACE63AED /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		9441ECF0FA2956D2D15E554ABD28805A /* Pods-Neptune_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Neptune_Tests"; path = Pods_Neptune_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B735EBCAB6E10F8DE83D319CAE7284F /* NPRequest+PareResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NPRequest+PareResponse.swift"; path = "Neptune/Classes/NPRequest+PareResponse.swift"; sourceTree = "<group>"; };
+		9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E167342929BA7EF199C42307DCB7347 /* NetworkStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkStatus.swift; path = Neptune/Classes/NetworkStatus.swift; sourceTree = "<group>"; };
+		A0BC6607A4FD5E9DCA63E0EBA578C1BD /* Neptune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neptune.debug.xcconfig; sourceTree = "<group>"; };
+		A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		A6556F255E1897BA6D6EA3DBF89F9F3D /* Neptune-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neptune-umbrella.h"; sourceTree = "<group>"; };
 		A9C484D33B2A694EBF0008EDEBA55592 /* Pods-Neptune_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neptune_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A9D475DB648F3CBD11DF88E10D8BFDEE /* Neptune-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Neptune-dummy.m"; sourceTree = "<group>"; };
+		B5FBC31CC490338700E2B4DF11712467 /* NPRequest+Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NPRequest+Cache.swift"; path = "Neptune/Classes/NPRequest+Cache.swift"; sourceTree = "<group>"; };
 		B630989D4BFEE4414A59B1D89BF81992 /* Pods-Neptune_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neptune_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B6DD8A49C2002138E91CA6C62C1BD67E /* Pods-Neptune_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neptune_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B8282103F9AD0AB1DE918A38E78E132C /* Neptune-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Neptune-Info.plist"; sourceTree = "<group>"; };
 		B980EC5537B151D35E73A22495E5607F /* Pods-Neptune_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neptune_Example-Info.plist"; sourceTree = "<group>"; };
+		BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		BF10C6CDCFDE23B59386235C4FCF270B /* Neptune.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Neptune.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		C6BD248026D44B25BAA09359AFC25E09 /* Encodable+Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Encodable+Dictionary.swift"; sourceTree = "<group>"; };
+		C9CEA8E6B29132842D8C60FE53BCFAA4 /* NPRequest+SendEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NPRequest+SendEmpty.swift"; path = "Neptune/Classes/NPRequest+SendEmpty.swift"; sourceTree = "<group>"; };
+		CAEB5581875DC9C59CEB8919EA3C566A /* Neptune-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Neptune-Info.plist"; sourceTree = "<group>"; };
+		CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		D0BC9B8625B2ADDE51EC99EC43A8F0C6 /* Pods-Neptune_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Neptune_Example.modulemap"; sourceTree = "<group>"; };
-		D6E4499D30F2CD467C17A08F5FFBE798 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		D46AC5EBBA52ACE462AB65447ACC912D /* NPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NPRequest.swift; path = Neptune/Classes/NPRequest.swift; sourceTree = "<group>"; };
+		D4F1461EA3A9CF3CFB135E29F5B4CEC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D98D3B339CD4A3453A6C533416D24C77 /* Pods-Neptune_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Neptune_Example-umbrella.h"; sourceTree = "<group>"; };
+		DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		DB2E4D126510BC75205E7CD04E96FFF1 /* Pods-Neptune_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Neptune_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DC95D4C74402D4FCF2720ACC0795B1E2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Neptune/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		E30EE02F1B46F8AB7572C445CD89AFDC /* Neptune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neptune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		E30EE02F1B46F8AB7572C445CD89AFDC /* Neptune */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Neptune; path = Neptune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51820B6D09135EC1B896BD97F7A2139 /* ResultTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultTypes.swift; path = Neptune/Classes/ResultTypes.swift; sourceTree = "<group>"; };
+		E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		E7D0A1A4B1E2C725D6FEEBC5DB2BA76A /* Pods-Neptune_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Neptune_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ECE1CA5DD3332A5964EDE466C6B2E5FA /* Pods_Neptune_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neptune_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDAFC7189E980A15723CC7113CDFFA81 /* Neptune-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neptune-prefix.pch"; sourceTree = "<group>"; };
-		F1E9775ABE12F8D62D3111A38E27BE05 /* Neptune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neptune.debug.xcconfig; sourceTree = "<group>"; };
+		E8404355431EE3AC3E6BC40D0C49AF40 /* NPRequest+Build.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NPRequest+Build.swift"; path = "Neptune/Classes/NPRequest+Build.swift"; sourceTree = "<group>"; };
+		ECE1CA5DD3332A5964EDE466C6B2E5FA /* Pods-Neptune_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Neptune_Example"; path = Pods_Neptune_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE19CA6ECEDBA9C8ACE68092529E4C5 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Neptune/Classes/Logger.swift; sourceTree = "<group>"; };
+		F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		F4818A0B58878529AA2F803A6E5A263A /* Pods-Neptune_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neptune_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F50234381D5A14DB01296C8B4E6221EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		F5E342556E485370FA363E3F70B6A878 /* String+Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Print.swift"; sourceTree = "<group>"; };
+		FAB8D018FB56E6DE4092E8176B891BAA /* Neptune.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Neptune.modulemap; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		FF784AECAB1CF4D8E63DFB863F9B8E55 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
+				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A426A177C1DF6C7C1B154D85991735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0262BFA017B090D8136F6FE98877BB2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43F974B7586572523C3012C915E6E685 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,64 +241,178 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60F58217ED82FD2EA27D09974BAD3299 /* Frameworks */ = {
+		F303097C73A56F3913C873BEC92CB5E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				582C33C67778B1CF68B528DE49512A50 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7447423909B6AAE093874FA2357C9282 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A111F4D94D7FBE5A18378474B16E134B /* Foundation.framework in Frameworks */,
+				36BDF1216B124FC3B884D9E34CF98A7A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29877123B204131D3914A3B9EF40EF6E /* Products */ = {
+		12B5A61DD3466979CE1CF90F73DC3F4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E30EE02F1B46F8AB7572C445CD89AFDC /* Neptune.framework */,
-				ECE1CA5DD3332A5964EDE466C6B2E5FA /* Pods_Neptune_Example.framework */,
-				9441ECF0FA2956D2D15E554ABD28805A /* Pods_Neptune_Tests.framework */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				E30EE02F1B46F8AB7572C445CD89AFDC /* Neptune */,
+				ECE1CA5DD3332A5964EDE466C6B2E5FA /* Pods-Neptune_Example */,
+				9441ECF0FA2956D2D15E554ABD28805A /* Pods-Neptune_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3872F485825F0FCAD83C768C3783F043 /* Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33DBFC2898286A67E07947AB9F7F429B /* Neptune.modulemap */,
-				A9D475DB648F3CBD11DF88E10D8BFDEE /* Neptune-dummy.m */,
-				B8282103F9AD0AB1DE918A38E78E132C /* Neptune-Info.plist */,
-				EDAFC7189E980A15723CC7113CDFFA81 /* Neptune-prefix.pch */,
-				41C8D940663BEAC82B0F018A3814E38A /* Neptune-umbrella.h */,
-				F1E9775ABE12F8D62D3111A38E27BE05 /* Neptune.debug.xcconfig */,
-				7AC2A3232A2FA431EC042B34F1D06532 /* Neptune.release.xcconfig */,
+				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B0810928A6319057A946D6BCAD4DD5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF784AECAB1CF4D8E63DFB863F9B8E55 /* Alamofire.modulemap */,
+				F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */,
+				9004C2E27B7F9FA32BC9B07CD98CDCE0 /* Alamofire-Info.plist */,
+				0A3EB6508561F9676FE95486B422B72D /* Alamofire-prefix.pch */,
+				232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */,
+				A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */,
+				DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		3D5724DAA5AA41661D558C31AFF3C25B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F50234381D5A14DB01296C8B4E6221EF /* LICENSE */,
+				BF10C6CDCFDE23B59386235C4FCF270B /* Neptune.podspec */,
+				D4F1461EA3A9CF3CFB135E29F5B4CEC7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4787C4441A1E112F39D37B3B62884A05 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86D5A41AEB6CBF18357E79AA1ADD0EDC /* Neptune */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
+				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63C11D5CCC3792620536F2F71BF14B51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6BD248026D44B25BAA09359AFC25E09 /* Encodable+Dictionary.swift */,
+				F5E342556E485370FA363E3F70B6A878 /* String+Print.swift */,
+			);
+			name = Extensions;
+			path = Neptune/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		86666748CC74DAF211F08FB875B11CB4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8D018FB56E6DE4092E8176B891BAA /* Neptune.modulemap */,
+				0D267F92C5C7DFAD13852D07A5D6C10D /* Neptune-dummy.m */,
+				CAEB5581875DC9C59CEB8919EA3C566A /* Neptune-Info.plist */,
+				33EBFABEED9058983A50E09E8F947E88 /* Neptune-prefix.pch */,
+				A6556F255E1897BA6D6EA3DBF89F9F3D /* Neptune-umbrella.h */,
+				A0BC6607A4FD5E9DCA63E0EBA578C1BD /* Neptune.debug.xcconfig */,
+				0691B9E1A4EA478E540843A06623E76B /* Neptune.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Neptune";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		86D5A41AEB6CBF18357E79AA1ADD0EDC /* Neptune */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				8B5FC3401DD9DCF17A3B1D79A4940A5F /* EnvironmentMode.swift */,
+				EDE19CA6ECEDBA9C8ACE68092529E4C5 /* Logger.swift */,
+				5341652F2C8403337A305658ED6828A2 /* Neptune.swift */,
+				177FFB6373EC7ACE071BCBA6B43CED71 /* Neptune+Environment.swift */,
+				8C5234C2A80584781BD6B66787874F46 /* Neptune+PrepareHeaders.swift */,
+				5590C1C972597CCC506065472E95E84E /* NeptuneError.swift */,
+				354983BD17BAD329FD481A535AE36D68 /* NetworkError.swift */,
+				9E167342929BA7EF199C42307DCB7347 /* NetworkStatus.swift */,
+				400B7D2C8850F9944F33CA1C8A86D735 /* NPEnvironment.swift */,
+				D46AC5EBBA52ACE462AB65447ACC912D /* NPRequest.swift */,
+				E8404355431EE3AC3E6BC40D0C49AF40 /* NPRequest+Build.swift */,
+				B5FBC31CC490338700E2B4DF11712467 /* NPRequest+Cache.swift */,
+				9B735EBCAB6E10F8DE83D319CAE7284F /* NPRequest+PareResponse.swift */,
+				0790BBA7C30BB7543F1F2756951C9174 /* NPRequest+ParseError.swift */,
+				C9CEA8E6B29132842D8C60FE53BCFAA4 /* NPRequest+SendEmpty.swift */,
+				5DB32FD060602A83439C73829734EB80 /* NPRequest+SendJsonEncoded.swift */,
+				1E5B88ED539E296E8877A20D0CF3A036 /* NPRequest+SendMultipart.swift */,
+				498A15B8D0C91B8627D987591727E950 /* NPRequest+URLEncoding.swift */,
+				7C3DF88452F885987E947B06EF82BFA2 /* QueryContainer.swift */,
+				E51820B6D09135EC1B896BD97F7A2139 /* ResultTypes.swift */,
+				2F20D70223EB04E124BCF9074E343D8A /* StatusCode.swift */,
+				63C11D5CCC3792620536F2F71BF14B51 /* Extensions */,
+				3D5724DAA5AA41661D558C31AFF3C25B /* Pod */,
+				86666748CC74DAF211F08FB875B11CB4 /* Support Files */,
 			);
-			name = iOS;
+			name = Neptune;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		7F92F1A53A38730C6C00C0E005DB50FC /* Development Pods */ = {
+		8E167B633C802817B2BE74255F6EE178 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				F1F77A623A912CE635FFADA282585EAA /* Neptune */,
+				91762C69C08629CBFD921AEBACE63AED /* AFError.swift */,
+				8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */,
+				BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */,
+				15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */,
+				CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */,
+				42D611F243BC3328826FE250D806EC26 /* Combine.swift */,
+				F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */,
+				E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */,
+				A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */,
+				182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */,
+				A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */,
+				19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */,
+				47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */,
+				D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */,
+				1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */,
+				9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */,
+				4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */,
+				D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */,
+				C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */,
+				50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */,
+				5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */,
+				5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */,
+				6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */,
+				8637848096C1E040096D350A02F8E944 /* Response.swift */,
+				2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */,
+				F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */,
+				6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */,
+				717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */,
+				3B0D97FB483508422ACE73BA88223F05 /* Session.swift */,
+				DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */,
+				9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */,
+				3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */,
+				DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */,
+				53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */,
+				FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */,
+				02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */,
+				2B0810928A6319057A946D6BCAD4DD5E /* Support Files */,
 			);
-			name = "Development Pods";
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		9AF346B682E2ADC44F214E763D5C9121 /* Targets Support Files */ = {
@@ -148,6 +422,14 @@
 				A3440929E7DEECBB47910368E341DC72 /* Pods-Neptune_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F4B67447122FC6BA6080EAA9B88A719 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E167B633C802817B2BE74255F6EE178 /* Alamofire */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		A3440929E7DEECBB47910368E341DC72 /* Pods-Neptune_Tests */ = {
@@ -183,62 +465,42 @@
 			path = "Target Support Files/Pods-Neptune_Example";
 			sourceTree = "<group>";
 		};
-		CB2CE319EABCBDF36C31595068526BDA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1C783642E1651E00BDDD2D94E921103A /* LICENSE */,
-				5413A0495D02503DEBD5EB9E3C2FC5BC /* Neptune.podspec */,
-				D6E4499D30F2CD467C17A08F5FFBE798 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7F92F1A53A38730C6C00C0E005DB50FC /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				29877123B204131D3914A3B9EF40EF6E /* Products */,
+				4787C4441A1E112F39D37B3B62884A05 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9F4B67447122FC6BA6080EAA9B88A719 /* Pods */,
+				12B5A61DD3466979CE1CF90F73DC3F4E /* Products */,
 				9AF346B682E2ADC44F214E763D5C9121 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F1F77A623A912CE635FFADA282585EAA /* Neptune */ = {
-			isa = PBXGroup;
-			children = (
-				DC95D4C74402D4FCF2720ACC0795B1E2 /* ReplaceMe.swift */,
-				CB2CE319EABCBDF36C31595068526BDA /* Pod */,
-				3872F485825F0FCAD83C768C3783F043 /* Support Files */,
-			);
-			name = Neptune;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8F2B5C49A3B07297626CAB255D6B95CB /* Headers */ = {
+		52E6F7B26483BE3BC9393C6C05D32424 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3BCE97EF88FC87812FDFAE08EFD792 /* Pods-Neptune_Example-umbrella.h in Headers */,
+				005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D06552968A4F23E11A4D182FE0F0ADDD /* Headers */ = {
+		6FC8C91596E10294B2169FC6A68C18A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1DCB68BA3C97B5BDBA5CAA12241FAE /* Neptune-umbrella.h in Headers */,
+				A97CD4200A6BE4C9D5C919F6C2249985 /* Pods-Neptune_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D77EC7CBF441BD230F096E08DBB0D7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E14EAD012ACE084A51F6BB41F62E3DB /* Neptune-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,39 +517,59 @@
 /* Begin PBXNativeTarget section */
 		C464C64D3261920F0B24363281A656A2 /* Pods-Neptune_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE8FA63225712A12E204C660F43BA9D4 /* Build configuration list for PBXNativeTarget "Pods-Neptune_Example" */;
+			buildConfigurationList = 37AE9FBD72ACB88C84410781EA65CEF1 /* Build configuration list for PBXNativeTarget "Pods-Neptune_Example" */;
 			buildPhases = (
-				8F2B5C49A3B07297626CAB255D6B95CB /* Headers */,
-				DC52190EF1209026552C7F7ED59317F0 /* Sources */,
-				7447423909B6AAE093874FA2357C9282 /* Frameworks */,
-				FCD836A9F82BADAED1F44DFDE7CBB636 /* Resources */,
+				6FC8C91596E10294B2169FC6A68C18A9 /* Headers */,
+				C8043A7EBD8907CCF0C9E17994256ED5 /* Sources */,
+				33A426A177C1DF6C7C1B154D85991735 /* Frameworks */,
+				54FE115FEEBFE135E362F3DE1544A71A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8068219E3A938DFCF1FC8BF528D0ED35 /* PBXTargetDependency */,
+				A77353FA56689F66635E0E3129A71B79 /* PBXTargetDependency */,
+				229D1CF2BF8D9F96C45061CF7DEA0A14 /* PBXTargetDependency */,
 			);
 			name = "Pods-Neptune_Example";
 			productName = Pods_Neptune_Example;
-			productReference = ECE1CA5DD3332A5964EDE466C6B2E5FA /* Pods_Neptune_Example.framework */;
+			productReference = ECE1CA5DD3332A5964EDE466C6B2E5FA /* Pods-Neptune_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE406C9D77223F3546D1EDD6D8F831DB /* Neptune */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 289666637FBBD5455F31BFD020C657E4 /* Build configuration list for PBXNativeTarget "Neptune" */;
+			buildConfigurationList = 88B850E872B9A52C489087B60CE6493A /* Build configuration list for PBXNativeTarget "Neptune" */;
 			buildPhases = (
-				D06552968A4F23E11A4D182FE0F0ADDD /* Headers */,
-				564A391EDC964C8DDB8402A58D48F31B /* Sources */,
-				60F58217ED82FD2EA27D09974BAD3299 /* Frameworks */,
-				8697809D313E980B4211C3FE8D13D563 /* Resources */,
+				8D77EC7CBF441BD230F096E08DBB0D7F /* Headers */,
+				3F0B3243972B69DBEAF8F5A8DE2A6497 /* Sources */,
+				F303097C73A56F3913C873BEC92CB5E2 /* Frameworks */,
+				2C6F57FC55931CEE0FBFEFA76062342B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8DDD891C77F2A33492034731C31A7EB /* PBXTargetDependency */,
+			);
+			name = Neptune;
+			productName = Neptune;
+			productReference = E30EE02F1B46F8AB7572C445CD89AFDC /* Neptune */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				52E6F7B26483BE3BC9393C6C05D32424 /* Headers */,
+				F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */,
+				15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */,
+				E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Neptune;
-			productName = Neptune;
-			productReference = E30EE02F1B46F8AB7572C445CD89AFDC /* Neptune.framework */;
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
 			productType = "com.apple.product-type.framework";
 		};
 		FADF5F2070E4B770C21D37888E90659A /* Pods-Neptune_Tests */ = {
@@ -302,11 +584,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				04DC203D4049D5DD7C096650F506B1CB /* PBXTargetDependency */,
+				151E8EC2E7BC1FC76756EACA1D2C12C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-Neptune_Tests";
 			productName = Pods_Neptune_Tests;
-			productReference = 9441ECF0FA2956D2D15E554ABD28805A /* Pods_Neptune_Tests.framework */;
+			productReference = 9441ECF0FA2956D2D15E554ABD28805A /* Pods-Neptune_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,10 +609,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 29877123B204131D3914A3B9EF40EF6E /* Products */;
+			productRefGroup = 12B5A61DD3466979CE1CF90F73DC3F4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				CE406C9D77223F3546D1EDD6D8F831DB /* Neptune */,
 				C464C64D3261920F0B24363281A656A2 /* Pods-Neptune_Example */,
 				FADF5F2070E4B770C21D37888E90659A /* Pods-Neptune_Tests */,
@@ -339,6 +622,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C6F57FC55931CEE0FBFEFA76062342B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4464FDD6272CAA67991DAC00ECDEDF76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,14 +636,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8697809D313E980B4211C3FE8D13D563 /* Resources */ = {
+		54FE115FEEBFE135E362F3DE1544A71A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCD836A9F82BADAED1F44DFDE7CBB636 /* Resources */ = {
+		E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,6 +653,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F0B3243972B69DBEAF8F5A8DE2A6497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C73987359529D4AFFE40407FB04B96 /* Encodable+Dictionary.swift in Sources */,
+				2FF6BA5354AF3CEC07813A06A1811300 /* EnvironmentMode.swift in Sources */,
+				5ED8FECFB20B150BC389686793BF0FCC /* Logger.swift in Sources */,
+				B00E8C88156F79E04DC3F50936D1F78D /* Neptune.swift in Sources */,
+				EFD8DCDAE8594861E10E18D8EFA88B72 /* Neptune+Environment.swift in Sources */,
+				D1431437F700D705EA0EF9FB40A21C88 /* Neptune+PrepareHeaders.swift in Sources */,
+				2CDA0CDF1504379FA37032D1E320AC08 /* Neptune-dummy.m in Sources */,
+				461FAA71D64A7C18825433A7411656D4 /* NeptuneError.swift in Sources */,
+				FF32A3D8E323A589AE65D0369E6BB7AE /* NetworkError.swift in Sources */,
+				B1208DF9D4136F29BACD4051830A906D /* NetworkStatus.swift in Sources */,
+				FCB39609D4A12EB9F7202DF983CD5701 /* NPEnvironment.swift in Sources */,
+				7647338399054461B9825D2E1107B2A7 /* NPRequest.swift in Sources */,
+				273AA98139DF0953BF89A9E556AA0D08 /* NPRequest+Build.swift in Sources */,
+				CC5C0992992C493E02F515A86255CAB7 /* NPRequest+Cache.swift in Sources */,
+				E4D371190059AAC29C052916A729A673 /* NPRequest+PareResponse.swift in Sources */,
+				195F8F389F3C59D043AAC8E1E48B36A6 /* NPRequest+ParseError.swift in Sources */,
+				DD9C0642477849BA9C5C585E72176E73 /* NPRequest+SendEmpty.swift in Sources */,
+				037080AAF3A7C5B221246BD507AD71F7 /* NPRequest+SendJsonEncoded.swift in Sources */,
+				CB12C5D6F492412078478FC026BCEF6B /* NPRequest+SendMultipart.swift in Sources */,
+				A6381FC04CCA5F33A3D6900DFC1559A2 /* NPRequest+URLEncoding.swift in Sources */,
+				D8782F44AF886806BCC43D09691CB73C /* QueryContainer.swift in Sources */,
+				13AB79FA5C713E3BA575934DF6EC0699 /* ResultTypes.swift in Sources */,
+				8DF002777956DE730D330EE78DDDDD22 /* StatusCode.swift in Sources */,
+				3F2EB16CB7A9F95EEA8069C9FA34A1FD /* String+Print.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F124648DBB138098C0C213BF241EA07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,111 +692,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		564A391EDC964C8DDB8402A58D48F31B /* Sources */ = {
+		C8043A7EBD8907CCF0C9E17994256ED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4987EA118B6B15C30BDDDF42ECF1B3F /* Neptune-dummy.m in Sources */,
-				2D9C30B5466904B948EB54453A3F86A6 /* ReplaceMe.swift in Sources */,
+				878725D7BEACE4DAAECE5D933D79EFF8 /* Pods-Neptune_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC52190EF1209026552C7F7ED59317F0 /* Sources */ = {
+		F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2CC79498F58DF7AC1C5C78A76180B06 /* Pods-Neptune_Example-dummy.m in Sources */,
+				D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */,
+				F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */,
+				55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */,
+				1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */,
+				7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */,
+				2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */,
+				46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */,
+				9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */,
+				EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */,
+				CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */,
+				7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */,
+				D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */,
+				7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */,
+				E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */,
+				A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */,
+				2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */,
+				E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */,
+				99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */,
+				68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */,
+				A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */,
+				045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */,
+				B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */,
+				DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */,
+				DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */,
+				75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */,
+				824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */,
+				04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */,
+				33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */,
+				B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */,
+				81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */,
+				1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */,
+				7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */,
+				8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */,
+				BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */,
+				808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04DC203D4049D5DD7C096650F506B1CB /* PBXTargetDependency */ = {
+		151E8EC2E7BC1FC76756EACA1D2C12C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Neptune_Example";
 			target = C464C64D3261920F0B24363281A656A2 /* Pods-Neptune_Example */;
-			targetProxy = 9355533D4753A23D6D2893ED43D6BF86 /* PBXContainerItemProxy */;
+			targetProxy = 9166CCB16BCE8813B4A3321335B1BD71 /* PBXContainerItemProxy */;
 		};
-		8068219E3A938DFCF1FC8BF528D0ED35 /* PBXTargetDependency */ = {
+		229D1CF2BF8D9F96C45061CF7DEA0A14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Neptune;
 			target = CE406C9D77223F3546D1EDD6D8F831DB /* Neptune */;
-			targetProxy = E3927C436AD464D7E9AF3932A2947D3E /* PBXContainerItemProxy */;
+			targetProxy = 21EBBDF0AF7DC726E7F50EE5F718730C /* PBXContainerItemProxy */;
+		};
+		A77353FA56689F66635E0E3129A71B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = CB4DCE574BE3108C5DA04A210BC4BDBC /* PBXContainerItemProxy */;
+		};
+		D8DDD891C77F2A33492034731C31A7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 62E93278DB93C184266E5FD82E42B621 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C28775D561D0065FA3466F16C3003C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AC2A3232A2FA431EC042B34F1D06532 /* Neptune.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Neptune/Neptune-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Neptune/Neptune-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Neptune/Neptune.modulemap";
-				PRODUCT_MODULE_NAME = Neptune;
-				PRODUCT_NAME = Neptune;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		350743668DD1891A929591A64C73ABA9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C484D33B2A694EBF0008EDEBA55592 /* Pods-Neptune_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4F114BAB4BA81DB365DC690E1E1C7DEA /* Debug */ = {
+		0A4464CE855DCF268084F88DEFDDA355 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4818A0B58878529AA2F803A6E5A263A /* Pods-Neptune_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -504,167 +808,7 @@
 			};
 			name = Debug;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8B0227ABCAAA1B13B3C0617B4F3F20B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B630989D4BFEE4414A59B1D89BF81992 /* Pods-Neptune_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A5CA0F1EA1D2E5D457867CC1CF22D84E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6DD8A49C2002138E91CA6C62C1BD67E /* Pods-Neptune_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Tests/Pods-Neptune_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Tests/Pods-Neptune_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AF6D573D7ADEF4E8C36CD11C63853365 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1E9775ABE12F8D62D3111A38E27BE05 /* Neptune.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Neptune/Neptune-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Neptune/Neptune-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Neptune/Neptune.modulemap";
-				PRODUCT_MODULE_NAME = Neptune;
-				PRODUCT_NAME = Neptune;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -717,7 +861,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -730,14 +874,310 @@
 			};
 			name = Debug;
 		};
+		44E6463BF67A4CF96C51194B19997978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B630989D4BFEE4414A59B1D89BF81992 /* Pods-Neptune_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4668B2F5AFE2DB9E230EAA462EDF8680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DD8A49C2002138E91CA6C62C1BD67E /* Pods-Neptune_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Tests/Pods-Neptune_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Tests/Pods-Neptune_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CF9A843C50CBB7A7C50DAD66D80ACD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0BC6607A4FD5E9DCA63E0EBA578C1BD /* Neptune.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Neptune/Neptune-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Neptune/Neptune-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Neptune/Neptune.modulemap";
+				PRODUCT_MODULE_NAME = Neptune;
+				PRODUCT_NAME = Neptune;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C7C44F762EF06288B021B2563196CCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C484D33B2A694EBF0008EDEBA55592 /* Pods-Neptune_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6DFF53E08D12E91B9E867AA78BC556C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC8CA7A81B44A21BCAC703DBFE2AE43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0691B9E1A4EA478E540843A06623E76B /* Neptune.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Neptune/Neptune-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Neptune/Neptune-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Neptune/Neptune.modulemap";
+				PRODUCT_MODULE_NAME = Neptune;
+				PRODUCT_NAME = Neptune;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F981DEB9EE0E57AB9720BB19EEAD6FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		289666637FBBD5455F31BFD020C657E4 /* Build configuration list for PBXNativeTarget "Neptune" */ = {
+		37AE9FBD72ACB88C84410781EA65CEF1 /* Build configuration list for PBXNativeTarget "Pods-Neptune_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF6D573D7ADEF4E8C36CD11C63853365 /* Debug */,
-				1C28775D561D0065FA3466F16C3003C8 /* Release */,
+				5C7C44F762EF06288B021B2563196CCE /* Debug */,
+				44E6463BF67A4CF96C51194B19997978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -745,8 +1185,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B850E872B9A52C489087B60CE6493A /* Build configuration list for PBXNativeTarget "Neptune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF9A843C50CBB7A7C50DAD66D80ACD8 /* Debug */,
+				AC8CA7A81B44A21BCAC703DBFE2AE43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F981DEB9EE0E57AB9720BB19EEAD6FEB /* Debug */,
+				6DFF53E08D12E91B9E867AA78BC556C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -754,17 +1212,8 @@
 		D61A957ADFDF75FBF6B7153CFAF3DC01 /* Build configuration list for PBXNativeTarget "Pods-Neptune_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F114BAB4BA81DB365DC690E1E1C7DEA /* Debug */,
-				A5CA0F1EA1D2E5D457867CC1CF22D84E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE8FA63225712A12E204C660F43BA9D4 /* Build configuration list for PBXNativeTarget "Pods-Neptune_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				350743668DD1891A929591A64C73ABA9 /* Debug */,
-				8B0227ABCAAA1B13B3C0617B4F3F20B1 /* Release */,
+				0A4464CE855DCF268084F88DEFDDA355 /* Debug */,
+				4668B2F5AFE2DB9E230EAA462EDF8680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

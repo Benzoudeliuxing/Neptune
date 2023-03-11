@@ -1,16 +1,23 @@
 PODS:
-  - Neptune (0.1.0)
+  - Alamofire (5.6.4)
+  - Neptune (0.1.0):
+    - Alamofire
 
 DEPENDENCIES:
   - Neptune (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   Neptune:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Neptune: ce5b80e843f80d196c9103c1221299c4aa6627d3
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Neptune: d301a513cbf87ac0929ec2a5be17fb0e4719e5b0
 
-PODFILE CHECKSUM: d722e386b9a40ec59cc49c7d254f10e945b96a0f
+PODFILE CHECKSUM: 92710cebc4d27d2f17e8b869fc9f423ef6460bf1
 
 COCOAPODS: 1.12.0
