@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NeptuneRequest'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'NeptuneRequest.自建网络层'
 
 # This description is used to generate tags and improve search results.
