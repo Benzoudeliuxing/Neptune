@@ -1,0 +1,6 @@
+framework module Neptune {
+  umbrella header "Neptune-umbrella.h"
+
+  export *
+  module * { export * }
+}

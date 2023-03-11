@@ -1,0 +1,16 @@
+PODS:
+  - Neptune (0.1.0)
+
+DEPENDENCIES:
+  - Neptune (from `../`)
+
+EXTERNAL SOURCES:
+  Neptune:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Neptune: ce5b80e843f80d196c9103c1221299c4aa6627d3
+
+PODFILE CHECKSUM: d722e386b9a40ec59cc49c7d254f10e945b96a0f
+
+COCOAPODS: 1.12.0

@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144239499EBAC0008398CD6BBFAB3938 /* Pods-Neptune_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D797DCCD5CD699950C265CACDBCF91 /* Pods-Neptune_Tests-dummy.m */; };
+		2D9C30B5466904B948EB54453A3F86A6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC95D4C74402D4FCF2720ACC0795B1E2 /* ReplaceMe.swift */; };
+		2F3BCE97EF88FC87812FDFAE08EFD792 /* Pods-Neptune_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D98D3B339CD4A3453A6C533416D24C77 /* Pods-Neptune_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		582C33C67778B1CF68B528DE49512A50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8391962D88D8416C90CC88A548D77D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A111F4D94D7FBE5A18378474B16E134B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A4987EA118B6B15C30BDDDF42ECF1B3F /* Neptune-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D475DB648F3CBD11DF88E10D8BFDEE /* Neptune-dummy.m */; };
+		E2CC79498F58DF7AC1C5C78A76180B06 /* Pods-Neptune_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8FA2398730B3FE83F7F546E99E986 /* Pods-Neptune_Example-dummy.m */; };
+		EA999F1F5E5B3DE6520EC3477739D5DF /* Pods-Neptune_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D0A1A4B1E2C725D6FEEBC5DB2BA76A /* Pods-Neptune_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1DCB68BA3C97B5BDBA5CAA12241FAE /* Neptune-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41C8D940663BEAC82B0F018A3814E38A /* Neptune-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9355533D4753A23D6D2893ED43D6BF86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C464C64D3261920F0B24363281A656A2;
+			remoteInfo = "Pods-Neptune_Example";
+		};
+		E3927C436AD464D7E9AF3932A2947D3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE406C9D77223F3546D1EDD6D8F831DB;
+			remoteInfo = Neptune;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B5AECC0DE0C9C081AA1AB54ED0F2A83 /* Pods-Neptune_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neptune_Tests-Info.plist"; sourceTree = "<group>"; };
+		1C783642E1651E00BDDD2D94E921103A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		209FC231216BF480FECFCD639512A2EF /* Pods-Neptune_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neptune_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21F9A395984CA4F9834BEF0415EDE70D /* Pods-Neptune_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Neptune_Tests.modulemap"; sourceTree = "<group>"; };
+		2244AA31F2ABC4FD45B701CC5C392654 /* Pods-Neptune_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Neptune_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33DBFC2898286A67E07947AB9F7F429B /* Neptune.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Neptune.modulemap; sourceTree = "<group>"; };
+		41C8D940663BEAC82B0F018A3814E38A /* Neptune-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neptune-umbrella.h"; sourceTree = "<group>"; };
+		4CBBAE038F17F42F50CBDE508008674C /* Pods-Neptune_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Neptune_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DD8FA2398730B3FE83F7F546E99E986 /* Pods-Neptune_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Neptune_Example-dummy.m"; sourceTree = "<group>"; };
+		5413A0495D02503DEBD5EB9E3C2FC5BC /* Neptune.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Neptune.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		55FA6A262975445E849335BD013191DB /* Pods-Neptune_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neptune_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57D797DCCD5CD699950C265CACDBCF91 /* Pods-Neptune_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Neptune_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AC2A3232A2FA431EC042B34F1D06532 /* Neptune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neptune.release.xcconfig; sourceTree = "<group>"; };
+		9441ECF0FA2956D2D15E554ABD28805A /* Pods_Neptune_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neptune_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9C484D33B2A694EBF0008EDEBA55592 /* Pods-Neptune_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neptune_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D475DB648F3CBD11DF88E10D8BFDEE /* Neptune-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Neptune-dummy.m"; sourceTree = "<group>"; };
+		B630989D4BFEE4414A59B1D89BF81992 /* Pods-Neptune_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neptune_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6DD8A49C2002138E91CA6C62C1BD67E /* Pods-Neptune_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neptune_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8282103F9AD0AB1DE918A38E78E132C /* Neptune-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Neptune-Info.plist"; sourceTree = "<group>"; };
+		B980EC5537B151D35E73A22495E5607F /* Pods-Neptune_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Neptune_Example-Info.plist"; sourceTree = "<group>"; };
+		D0BC9B8625B2ADDE51EC99EC43A8F0C6 /* Pods-Neptune_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Neptune_Example.modulemap"; sourceTree = "<group>"; };
+		D6E4499D30F2CD467C17A08F5FFBE798 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D98D3B339CD4A3453A6C533416D24C77 /* Pods-Neptune_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Neptune_Example-umbrella.h"; sourceTree = "<group>"; };
+		DB2E4D126510BC75205E7CD04E96FFF1 /* Pods-Neptune_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Neptune_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DC95D4C74402D4FCF2720ACC0795B1E2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Neptune/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E30EE02F1B46F8AB7572C445CD89AFDC /* Neptune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neptune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D0A1A4B1E2C725D6FEEBC5DB2BA76A /* Pods-Neptune_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Neptune_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ECE1CA5DD3332A5964EDE466C6B2E5FA /* Pods_Neptune_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neptune_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAFC7189E980A15723CC7113CDFFA81 /* Neptune-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neptune-prefix.pch"; sourceTree = "<group>"; };
+		F1E9775ABE12F8D62D3111A38E27BE05 /* Neptune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neptune.debug.xcconfig; sourceTree = "<group>"; };
+		F4818A0B58878529AA2F803A6E5A263A /* Pods-Neptune_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Neptune_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F974B7586572523C3012C915E6E685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391962D88D8416C90CC88A548D77D70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F58217ED82FD2EA27D09974BAD3299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582C33C67778B1CF68B528DE49512A50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7447423909B6AAE093874FA2357C9282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A111F4D94D7FBE5A18378474B16E134B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29877123B204131D3914A3B9EF40EF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E30EE02F1B46F8AB7572C445CD89AFDC /* Neptune.framework */,
+				ECE1CA5DD3332A5964EDE466C6B2E5FA /* Pods_Neptune_Example.framework */,
+				9441ECF0FA2956D2D15E554ABD28805A /* Pods_Neptune_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3872F485825F0FCAD83C768C3783F043 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33DBFC2898286A67E07947AB9F7F429B /* Neptune.modulemap */,
+				A9D475DB648F3CBD11DF88E10D8BFDEE /* Neptune-dummy.m */,
+				B8282103F9AD0AB1DE918A38E78E132C /* Neptune-Info.plist */,
+				EDAFC7189E980A15723CC7113CDFFA81 /* Neptune-prefix.pch */,
+				41C8D940663BEAC82B0F018A3814E38A /* Neptune-umbrella.h */,
+				F1E9775ABE12F8D62D3111A38E27BE05 /* Neptune.debug.xcconfig */,
+				7AC2A3232A2FA431EC042B34F1D06532 /* Neptune.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Neptune";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F92F1A53A38730C6C00C0E005DB50FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1F77A623A912CE635FFADA282585EAA /* Neptune */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9AF346B682E2ADC44F214E763D5C9121 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B29EEFDCCAAE3347748C3E26A5C025CE /* Pods-Neptune_Example */,
+				A3440929E7DEECBB47910368E341DC72 /* Pods-Neptune_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A3440929E7DEECBB47910368E341DC72 /* Pods-Neptune_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				21F9A395984CA4F9834BEF0415EDE70D /* Pods-Neptune_Tests.modulemap */,
+				2244AA31F2ABC4FD45B701CC5C392654 /* Pods-Neptune_Tests-acknowledgements.markdown */,
+				55FA6A262975445E849335BD013191DB /* Pods-Neptune_Tests-acknowledgements.plist */,
+				57D797DCCD5CD699950C265CACDBCF91 /* Pods-Neptune_Tests-dummy.m */,
+				1B5AECC0DE0C9C081AA1AB54ED0F2A83 /* Pods-Neptune_Tests-Info.plist */,
+				E7D0A1A4B1E2C725D6FEEBC5DB2BA76A /* Pods-Neptune_Tests-umbrella.h */,
+				F4818A0B58878529AA2F803A6E5A263A /* Pods-Neptune_Tests.debug.xcconfig */,
+				B6DD8A49C2002138E91CA6C62C1BD67E /* Pods-Neptune_Tests.release.xcconfig */,
+			);
+			name = "Pods-Neptune_Tests";
+			path = "Target Support Files/Pods-Neptune_Tests";
+			sourceTree = "<group>";
+		};
+		B29EEFDCCAAE3347748C3E26A5C025CE /* Pods-Neptune_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0BC9B8625B2ADDE51EC99EC43A8F0C6 /* Pods-Neptune_Example.modulemap */,
+				4CBBAE038F17F42F50CBDE508008674C /* Pods-Neptune_Example-acknowledgements.markdown */,
+				209FC231216BF480FECFCD639512A2EF /* Pods-Neptune_Example-acknowledgements.plist */,
+				4DD8FA2398730B3FE83F7F546E99E986 /* Pods-Neptune_Example-dummy.m */,
+				DB2E4D126510BC75205E7CD04E96FFF1 /* Pods-Neptune_Example-frameworks.sh */,
+				B980EC5537B151D35E73A22495E5607F /* Pods-Neptune_Example-Info.plist */,
+				D98D3B339CD4A3453A6C533416D24C77 /* Pods-Neptune_Example-umbrella.h */,
+				A9C484D33B2A694EBF0008EDEBA55592 /* Pods-Neptune_Example.debug.xcconfig */,
+				B630989D4BFEE4414A59B1D89BF81992 /* Pods-Neptune_Example.release.xcconfig */,
+			);
+			name = "Pods-Neptune_Example";
+			path = "Target Support Files/Pods-Neptune_Example";
+			sourceTree = "<group>";
+		};
+		CB2CE319EABCBDF36C31595068526BDA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1C783642E1651E00BDDD2D94E921103A /* LICENSE */,
+				5413A0495D02503DEBD5EB9E3C2FC5BC /* Neptune.podspec */,
+				D6E4499D30F2CD467C17A08F5FFBE798 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7F92F1A53A38730C6C00C0E005DB50FC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				29877123B204131D3914A3B9EF40EF6E /* Products */,
+				9AF346B682E2ADC44F214E763D5C9121 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1F77A623A912CE635FFADA282585EAA /* Neptune */ = {
+			isa = PBXGroup;
+			children = (
+				DC95D4C74402D4FCF2720ACC0795B1E2 /* ReplaceMe.swift */,
+				CB2CE319EABCBDF36C31595068526BDA /* Pod */,
+				3872F485825F0FCAD83C768C3783F043 /* Support Files */,
+			);
+			name = Neptune;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8F2B5C49A3B07297626CAB255D6B95CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3BCE97EF88FC87812FDFAE08EFD792 /* Pods-Neptune_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06552968A4F23E11A4D182FE0F0ADDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1DCB68BA3C97B5BDBA5CAA12241FAE /* Neptune-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13ED7B96F34DA47F3D1C75A98F8CED4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA999F1F5E5B3DE6520EC3477739D5DF /* Pods-Neptune_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C464C64D3261920F0B24363281A656A2 /* Pods-Neptune_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8FA63225712A12E204C660F43BA9D4 /* Build configuration list for PBXNativeTarget "Pods-Neptune_Example" */;
+			buildPhases = (
+				8F2B5C49A3B07297626CAB255D6B95CB /* Headers */,
+				DC52190EF1209026552C7F7ED59317F0 /* Sources */,
+				7447423909B6AAE093874FA2357C9282 /* Frameworks */,
+				FCD836A9F82BADAED1F44DFDE7CBB636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8068219E3A938DFCF1FC8BF528D0ED35 /* PBXTargetDependency */,
+			);
+			name = "Pods-Neptune_Example";
+			productName = Pods_Neptune_Example;
+			productReference = ECE1CA5DD3332A5964EDE466C6B2E5FA /* Pods_Neptune_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE406C9D77223F3546D1EDD6D8F831DB /* Neptune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289666637FBBD5455F31BFD020C657E4 /* Build configuration list for PBXNativeTarget "Neptune" */;
+			buildPhases = (
+				D06552968A4F23E11A4D182FE0F0ADDD /* Headers */,
+				564A391EDC964C8DDB8402A58D48F31B /* Sources */,
+				60F58217ED82FD2EA27D09974BAD3299 /* Frameworks */,
+				8697809D313E980B4211C3FE8D13D563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neptune;
+			productName = Neptune;
+			productReference = E30EE02F1B46F8AB7572C445CD89AFDC /* Neptune.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FADF5F2070E4B770C21D37888E90659A /* Pods-Neptune_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61A957ADFDF75FBF6B7153CFAF3DC01 /* Build configuration list for PBXNativeTarget "Pods-Neptune_Tests" */;
+			buildPhases = (
+				D13ED7B96F34DA47F3D1C75A98F8CED4 /* Headers */,
+				3F124648DBB138098C0C213BF241EA07 /* Sources */,
+				43F974B7586572523C3012C915E6E685 /* Frameworks */,
+				4464FDD6272CAA67991DAC00ECDEDF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DC203D4049D5DD7C096650F506B1CB /* PBXTargetDependency */,
+			);
+			name = "Pods-Neptune_Tests";
+			productName = Pods_Neptune_Tests;
+			productReference = 9441ECF0FA2956D2D15E554ABD28805A /* Pods_Neptune_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 29877123B204131D3914A3B9EF40EF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE406C9D77223F3546D1EDD6D8F831DB /* Neptune */,
+				C464C64D3261920F0B24363281A656A2 /* Pods-Neptune_Example */,
+				FADF5F2070E4B770C21D37888E90659A /* Pods-Neptune_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4464FDD6272CAA67991DAC00ECDEDF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8697809D313E980B4211C3FE8D13D563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD836A9F82BADAED1F44DFDE7CBB636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F124648DBB138098C0C213BF241EA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144239499EBAC0008398CD6BBFAB3938 /* Pods-Neptune_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A391EDC964C8DDB8402A58D48F31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4987EA118B6B15C30BDDDF42ECF1B3F /* Neptune-dummy.m in Sources */,
+				2D9C30B5466904B948EB54453A3F86A6 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC52190EF1209026552C7F7ED59317F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CC79498F58DF7AC1C5C78A76180B06 /* Pods-Neptune_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DC203D4049D5DD7C096650F506B1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Neptune_Example";
+			target = C464C64D3261920F0B24363281A656A2 /* Pods-Neptune_Example */;
+			targetProxy = 9355533D4753A23D6D2893ED43D6BF86 /* PBXContainerItemProxy */;
+		};
+		8068219E3A938DFCF1FC8BF528D0ED35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Neptune;
+			target = CE406C9D77223F3546D1EDD6D8F831DB /* Neptune */;
+			targetProxy = E3927C436AD464D7E9AF3932A2947D3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C28775D561D0065FA3466F16C3003C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC2A3232A2FA431EC042B34F1D06532 /* Neptune.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Neptune/Neptune-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Neptune/Neptune-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Neptune/Neptune.modulemap";
+				PRODUCT_MODULE_NAME = Neptune;
+				PRODUCT_NAME = Neptune;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		350743668DD1891A929591A64C73ABA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C484D33B2A694EBF0008EDEBA55592 /* Pods-Neptune_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F114BAB4BA81DB365DC690E1E1C7DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4818A0B58878529AA2F803A6E5A263A /* Pods-Neptune_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Tests/Pods-Neptune_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Tests/Pods-Neptune_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8B0227ABCAAA1B13B3C0617B4F3F20B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B630989D4BFEE4414A59B1D89BF81992 /* Pods-Neptune_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5CA0F1EA1D2E5D457867CC1CF22D84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DD8A49C2002138E91CA6C62C1BD67E /* Pods-Neptune_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Neptune_Tests/Pods-Neptune_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Neptune_Tests/Pods-Neptune_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF6D573D7ADEF4E8C36CD11C63853365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E9775ABE12F8D62D3111A38E27BE05 /* Neptune.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Neptune/Neptune-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Neptune/Neptune-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Neptune/Neptune.modulemap";
+				PRODUCT_MODULE_NAME = Neptune;
+				PRODUCT_NAME = Neptune;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289666637FBBD5455F31BFD020C657E4 /* Build configuration list for PBXNativeTarget "Neptune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6D573D7ADEF4E8C36CD11C63853365 /* Debug */,
+				1C28775D561D0065FA3466F16C3003C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61A957ADFDF75FBF6B7153CFAF3DC01 /* Build configuration list for PBXNativeTarget "Pods-Neptune_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F114BAB4BA81DB365DC690E1E1C7DEA /* Debug */,
+				A5CA0F1EA1D2E5D457867CC1CF22D84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8FA63225712A12E204C660F43BA9D4 /* Build configuration list for PBXNativeTarget "Pods-Neptune_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350743668DD1891A929591A64C73ABA9 /* Debug */,
+				8B0227ABCAAA1B13B3C0617B4F3F20B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Neptune",
+  "version": "0.1.0",
+  "summary": "A short description of Neptune.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Benzoudeliuxing/Neptune",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Benzoudeliuxing": "995398128@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Benzoudeliuxing/Neptune.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Neptune/Classes/**/*"
+}
