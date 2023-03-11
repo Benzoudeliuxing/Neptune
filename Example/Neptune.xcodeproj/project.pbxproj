@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* Neptune_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neptune_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		684E4EF57015E125330423F8 /* Neptune.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Neptune.podspec; path = ../Neptune.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		684E4EF57015E125330423F8 /* NeptuneRequest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NeptuneRequest.podspec; path = ../NeptuneRequest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		710176E6D2FD2CDA85AE5D65 /* Pods-Neptune_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neptune_Example.release.xcconfig"; path = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A13CCC03146D702963CF26F /* Pods-Neptune_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neptune_Example.debug.xcconfig"; path = "Target Support Files/Pods-Neptune_Example/Pods-Neptune_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B88594A7CCD6531ED2CDCF50 /* Pods-Neptune_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neptune_Tests.release.xcconfig"; path = "Target Support Files/Pods-Neptune_Tests/Pods-Neptune_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				684E4EF57015E125330423F8 /* Neptune.podspec */,
+				684E4EF57015E125330423F8 /* NeptuneRequest.podspec */,
 				35EDFD78DA28D9E1169F6EBF /* README.md */,
 				085E1C74DE9358149766CAC5 /* LICENSE */,
 			);
